@@ -37,3 +37,19 @@ console.log(myMap.get("surname"))
 //has -> comprobar si una clave existe o no
 console.log(myMap.has("surname"))
 console.log(myMap.has("age"))
+
+//delet
+myMap.delete("email")
+console.log(myMap)
+
+//keys, vlues y entries
+console.log(myMap.keys())
+console.log(myMap.values())
+console.log(myMap.entries())
+
+//size
+console.log(myMap.size)
+
+//clear -> borrar todo el mapa 
+myMap.clear()
+console.log(myMap)

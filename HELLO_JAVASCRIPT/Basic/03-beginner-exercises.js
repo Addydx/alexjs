@@ -6,8 +6,13 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=4733
 // 1. Escribe un comentario en una línea
 
 // 2. Escribe un comentario en varias líneas
+/** */
 
 // 3. Declara variables con valores asociados a todos los datos de tipo primitivos
+let num = 1
+let nombre = " alex"
+let boolean = true
+let 
 
 // 4. Imprime por consola el valor de todas las variables
 

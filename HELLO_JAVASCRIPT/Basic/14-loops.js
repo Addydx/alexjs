@@ -63,6 +63,7 @@ for(let varlor of myMap){
     console.log(varlor)
 }
 
+console.log('hola alex now')
 for(let varlor of myString){
     console.log(varlor)//recorre datos 
 }

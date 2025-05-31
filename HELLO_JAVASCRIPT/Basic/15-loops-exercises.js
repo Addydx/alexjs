@@ -56,11 +56,34 @@ for (let i = 0; i < num; i++) {
     console.log(cont)
 
 // 6. Dado un array de números, usa un bucle para multiplicar todos los números y mostrar el producto
+let numeros = [1, 2, 3, 4]
+console.log(numeros)
+let numsuma = 1
+for (let i = 0; i < numeros.length; i++) {
+    numsuma = numsuma* numeros[i]
+    //console.log(numsuma)
+    
+}
+console.log(numsuma)
+
 
 // 7. Escribe un bucle que imprima la tabla de multiplicar del 5
-
+const cinco =5
+for (let i = 1; i <= 10; i++) {
+    console.log(i +'x' + 5 + '=' + i*cinco)
+    
+}
 // 8. Usa un bucle para invertir una cadena de texto
+let texto = 'hola'
+console.log(texto.length)
+for (let i = 0; i < numeros.length; i--) {
+    const element = numeros[i];
+    
+}
 
 // 9. Usa un bucle para generar los primeros 10 números de la secuencia de Fibonacci
+for (let i = 0; i < 10; i++) {
+    
+}
 
 // 10. Dado un array de números, usa un bucle para crear un nuevo array que contenga solo los números mayores a 10

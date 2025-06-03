@@ -76,14 +76,33 @@ for (let i = 1; i <= 10; i++) {
 // 8. Usa un bucle para invertir una cadena de texto
 let texto = 'hola'
 console.log(texto.length)
-for (let i = 0; i < numeros.length; i--) {
-    const element = numeros[i];
+console.log(texto[2])
+for (let i = 3; i >= 0; i--) {
+    console.log(texto[i])
     
 }
 
 // 9. Usa un bucle para generar los primeros 10 números de la secuencia de Fibonacci
+console.log('fibonaci')
+let a = 0
+let b = 1 
+let c = 0
+let valor 
 for (let i = 0; i < 10; i++) {
-    
+    console.log(a)
+    let temp = a + b 
+    a = b
+    b = temp
 }
 
 // 10. Dado un array de números, usa un bucle para crear un nuevo array que contenga solo los números mayores a 10
+numeros = [1, 33, 22, 35, 78]
+newArray = []
+for(let value of numeros ){
+    //console.log(numeros)
+    if(value > 10){
+        console.log('array valido')
+        newArray.push(value)
+    }
+}
+console.log(newArray)
